@@ -3,5 +3,10 @@ Utility using EXIFTool and PyExifTool to fix dates of videos where local time wa
 
 ## Dependencies
 PyExifTool
+
 timezonefinder
+
 geopy
+
+## Usage
+``pyexiftool [timezone_offset (decimal)] [file1] [file2] [directory1/*] [directory2/*] ...``
